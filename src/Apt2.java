@@ -36,10 +36,16 @@ public class Apt2 {
 
 
         // Common 
-        String a = "horse";
-        String b = "short";
+        // String a = "horse";
+        // String b = "short";
 
-        Common cmmn = new Common();
-        System.out.println(cmmn.count(a, b));
+        // Common cmmn = new Common();
+        // System.out.println(cmmn.count(a, b));
+        
+        // Point Trial (quiz)
+        Point p = new Point(1, 2);
+        Point q = new Point(1, 2);
+        Boolean r = p.hashCode() == q.hashCode();
+        System.out.println(r);
     }
 }

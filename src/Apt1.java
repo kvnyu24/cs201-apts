@@ -45,8 +45,5 @@ public class Apt1 {
 
         CirclesCountry cirlces = new CirclesCountry();
         System.out.println(cirlces.leastBorders(x, y, r, x1, y1, x2, y2));
-
- 
- 
     }
 }
