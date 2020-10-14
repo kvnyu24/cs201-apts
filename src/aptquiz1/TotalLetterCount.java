@@ -1,4 +1,4 @@
-// package aptquiz1;
+package aptquiz1;
 import java.util.*;
 
 public class TotalLetterCount {
